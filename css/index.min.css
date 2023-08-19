@@ -327,6 +327,10 @@ body {
       flex-wrap: wrap;
 }
 .folio__item {
+  background: linear-gradient(140deg, #2f0e93, #c08d0d);
+  background-size: 400%;
+  -webkit-animation: gradient 30s ease infinite;
+          animation: gradient 30s ease infinite;
   max-width: 300px;
   margin-bottom: 30px;
   -webkit-box-shadow: 5px 5px 15px 2px #6a00ff;
@@ -341,10 +345,6 @@ body {
 }
 .folio__info {
   padding: 10px;
-  background: linear-gradient(140deg, #2f0e93, #c08d0d);
-  background-size: 400%;
-  -webkit-animation: gradient 30s ease infinite;
-          animation: gradient 30s ease infinite;
 }
 .folio__title {
   color: #fff;
@@ -392,6 +392,12 @@ body {
 }
 .proj__inner ol {
   margin-bottom: 30px;
+}
+.proj__inner ol li {
+  margin-left: 45px;
+}
+.proj__inner ol li a:hover {
+  color: rgba(255, 0, 251, 0.3098039216);
 }
 .proj__tehno {
   color: #1e00ff;
