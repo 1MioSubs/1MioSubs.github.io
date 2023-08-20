@@ -1,0 +1,36 @@
+https://dummyimage.com/800x300/000/fff
+
+
+
+Редактор кода: https://code.visualstudio.com/
+
+Справочник HTML тегов и CSS свойств: https://webref.ru/
+
+
+
+
+
+
+
+
+Key Bindings https://code.visualstudio.com/docs/getstarted/keybindings
+Рыбные картинки https://dummyimage.com/
+CSS reset http://html5doctor.com/html-5-reset-stylesheet/
+Псевдоклассы https://webref.ru/css/type/pseudoclass
+Псевдоэлементы https://webref.ru/css/type/pseudoelement
+
+
+
+
+
+
+
+
+
+
+Шпаргалка по флексам - https://habr.com/ru/post/313938/
+Flexbox Froggy - https://flexboxfroggy.com/#ru
+Jquery - https://jquery.com/
+Jquery google cdn - https://developers.google.com/speed/libraries
+Slick Slider - https://kenwheeler.github.io/slick/
+
