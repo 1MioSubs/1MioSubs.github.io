@@ -1751,6 +1751,9 @@ body {
   width: 518px;
 }
 
+.work {
+  overflow: hidden;
+}
 .work__item {
   display: -webkit-box;
   display: -ms-flexbox;
