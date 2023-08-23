@@ -209,6 +209,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -217,7 +219,7 @@ body {
           align-items: center;
 }
 .header__logo {
-  min-width: 270px;
+  min-width: 201px;
   min-height: 55px;
 }
 .header__menu-items {
@@ -246,6 +248,27 @@ body {
   background-color: rgba(255, 0, 251, 0.3098039216);
 }
 
+@media (max-width: 635px) {
+  .header__inner {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header__menu-items {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header__logo {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .header__menu-link {
+    font-size: 25px;
+  }
+}
 .footer {
   background: linear-gradient(140deg, #c08d0d, #0b4daa);
   background-color: rgba(42, 70, 98, 0.7411764706);
@@ -258,6 +281,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -267,7 +292,7 @@ body {
   margin-bottom: 30px;
 }
 .footer__logo {
-  min-width: 270px;
+  min-width: 201px;
   min-height: 55px;
 }
 .footer__social-items {
@@ -283,6 +308,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -291,7 +318,7 @@ body {
           align-items: flex-end;
 }
 .footer__contacts-link {
-  color: #FFF;
+  color: #fff;
 }
 .footer__contacts {
   text-align: center;
@@ -299,4 +326,32 @@ body {
 .footer__info {
   text-align: right;
   max-width: 500px;
+}
+
+@media (max-width: 840px) {
+  .footer__top {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__bottom {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__contacts {
+    margin-bottom: 20px;
+  }
+  .footer__info {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .footer__text {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .footer__r {
+    font-size: 10px;
+  }
 }
