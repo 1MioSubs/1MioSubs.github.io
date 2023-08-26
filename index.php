@@ -1,11 +1,10 @@
 <?php 
-	if (!isset($_SERVER['HTTPS']) or $_SERVER['HTTPS'] != 'on' ) {
-		$redirect_url = "https://www." . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-		header("Location: $redirect_url");
-		exit();
-	} 
+  if (!isset($_SERVER['HTTPS']) or $_SERVER['HTTPS'] != 'on' ) {
+    $redirect_url = "https://www." . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    header("Location: $redirect_url");
+    exit();
+  } 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>it{web}</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="../css/index.min.css" />
+    <link rel="stylesheet" href="css/index.min.css" />
     
   </head>
   <body>
@@ -71,6 +70,26 @@
           <div class="folio__inner">
 
             <div class="folio__items">
+
+              <div class="folio__item">
+
+                <a href="webovio.html" class="folio__item-link">
+
+                  <img class="folio__img" src="images/folio-9.9.avif" alt="" />
+
+                  <div class="folio__info">
+
+                    <h4 class="folio__title">Visma</h4>
+
+                    <p class="folio__text">Тавимский морской порт VISMA</p>
+
+                    <a class="folio__link" href="visma.html">Подробнее</a>
+
+                  </div>
+
+                </a>
+
+              </div>
 
               <div class="folio__item">
 
